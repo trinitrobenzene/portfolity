@@ -25,4 +25,8 @@
     .navbar {
         @apply shadow px-8 py-2 flex justify-between;
     }
+
+    .cube-container {
+        @apply py-16 md:w-1/2 top-8 bottom-8 left-0 right-0;
+    }
 }

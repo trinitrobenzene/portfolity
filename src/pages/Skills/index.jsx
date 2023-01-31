@@ -7,16 +7,12 @@ import './skill.scss';
 const Skill = () => {
     const content = 'Skills & Experience'.split('');
     return (
-        <div className="px-8 py-12 relative grow">
-            <div className="w-1/2">
-                <h1 className="font-black">
-                    <AnimatedLetter
-                        letter={'text-animate'}
-                        str={content}
-                        idx={7}
-                    />
-                </h1>
-                <div className="py-4 text-justify">
+        <div className="p-8 relative grow">
+            <h1 className="font-black">
+                <AnimatedLetter letter={'text-animate'} str={content} idx={7} />
+            </h1>
+            <div className="py-4 text-justify md:flex">
+                <div className="md:w-1/2">
                     <p className="pt-1 leading-7">
                         I am confident that I am strong strong in front-end
                         development including technologies like
@@ -37,26 +33,26 @@ const Skill = () => {
                         like MySQL, SQL Server.
                     </p>
                 </div>
-            </div>
-            <div className="cube-container">
-                <div className="cube-spinner">
-                    <div className="face-1">
-                        <FaHtml5 size={120} />
-                    </div>
-                    <div className="face-2">
-                        <FaCss3 size={120} />
-                    </div>
-                    <div className="face-5">
-                        <FaJs size={120} />
-                    </div>
-                    <div className="face-4">
-                        <FaReact size={120} />
-                    </div>
-                    <div className="face-3">
-                        <SiTypescript size={120} />
-                    </div>
-                    <div className="face-6">
-                        <SiMysql size={64} />
+                <div className="cube-container">
+                    <div className="cube-spinner">
+                        <div className="face-1">
+                            <FaHtml5 size={120} />
+                        </div>
+                        <div className="face-2">
+                            <FaCss3 size={120} />
+                        </div>
+                        <div className="face-5">
+                            <FaJs size={120} />
+                        </div>
+                        <div className="face-4">
+                            <FaReact size={120} />
+                        </div>
+                        <div className="face-3">
+                            <SiTypescript size={120} />
+                        </div>
+                        <div className="face-6">
+                            <SiMysql size={64} />
+                        </div>
                     </div>
                 </div>
             </div>

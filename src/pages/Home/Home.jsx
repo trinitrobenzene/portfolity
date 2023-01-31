@@ -9,12 +9,12 @@ const Home = () => {
     const navigate = useNavigate();
     return (
         <div className="p-8 flex flex-col md:flex-row">
-            <div className="grow">
+            <div className="lg:w-3/4 md:w-1/2 md:pr-6">
                 <h1 className="font-black">
                     <AnimatedLetter letter={letter} str={content} idx={7} />
                 </h1>
-                <div className="pr-10 animate__animated animate__fadeIn animate__delay-2s">
-                    <p className='tracking-wide py-4'>
+                <div className="md:pr-10 animate__animated animate__fadeIn animate__delay-2s">
+                    <p className='tracking-wide py-4 text-justify'>
                         The reason that I want to be a front-end developer is
                         because I like color, art, and the way everything works together
                         to create harmony.
@@ -27,7 +27,7 @@ const Home = () => {
                     </button>
                 </div>
             </div>
-            <div className="md:w-1/4">
+            <div className="lg:w-1/4 md:w-1/2">
                 <img
                     className="eevee"
                     alt=""
