@@ -1,0 +1,64 @@
+.nav-icon {
+    height: 36px;
+    width: 44px;
+    text-align: center;
+
+    svg {
+        margin: auto;
+    }
+
+    &:hover {
+        color: limegreen;
+        transition: all .3s ease-out;
+
+        &:after {
+            opacity: 1;
+        }
+    }
+
+    &:after {
+        content: '';
+        font-size: 0.5rem;
+        letter-spacing: 2px;
+        display: block;
+        color: limegreen;
+    }
+
+    &.active {
+        color: limegreen;
+
+        &::after {
+            border-bottom: 2px solid limegreen;
+            animation: fadeInLeft 200ms;
+        }
+    }
+
+    &:first-child:hover,
+    &:first-child.active {
+        &::after {
+            content: 'HOME';
+        }
+    }
+
+    &:nth-child(2):hover,
+    &:nth-child(2).active {
+        &::after {
+            content: 'ABOUT';
+        }
+    }
+
+    &:nth-child(3):hover,
+    &:nth-child(3).active {
+        &::after {
+            content: 'SKILL';
+        }
+    }
+
+    &:last-child:hover,
+    &:last-child.active {
+        &::after {
+            content: 'CONTACT';
+        }
+    }
+
+}

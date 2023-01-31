@@ -1,0 +1,32 @@
+.contact-via {
+    padding-left: 1rem;
+    li {
+        &>a {
+            color: cornflowerblue;
+            text-decoration: underline;
+        }
+
+        padding-top: 0.25rem;
+    }
+}
+
+.form-input textarea {
+    min-height: 160px;
+    max-height: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.send-btn {
+    background-color: rgb(29, 241, 107);
+    color: rgb(255 251 235);
+    
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        background-color: limegreen;
+        transform: scale(1.03);
+        transition-duration: 250ms;
+        transition-timing-function: ease-in-out;
+    }
+}

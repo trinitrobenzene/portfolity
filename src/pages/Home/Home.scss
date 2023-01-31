@@ -1,0 +1,60 @@
+.spin {
+    svg {
+        animation: tada 0.8s;
+    }
+
+    &:hover {
+        svg {
+            animation: spin-animation 1s;
+            animation-delay: 0.15s;
+        }
+
+        cursor: pointer;
+    }
+
+    margin-right: 0.8rem;
+}
+
+.to-contact {
+    float: right;
+    padding: 1rem 1.75rem;
+    margin: 3rem 0;
+    border: 1px solid limegreen;
+    background: linear-gradient(to right, limegreen 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: .5s ease-out;
+}
+
+.to-contact:hover {
+    background-position: left;
+    color: white;
+}
+
+.text-animate {
+    display: inline-block;
+    opacity: 0;
+    animation: bounceIn 0.3s 1s;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+}
+
+@for $i from 1 through 60 {
+    .text-animate._#{$i} {
+        animation-delay: #{$i / 10}s;
+    }
+}
+
+.eevee {
+    animation: fadeIn 1.25s 1.75s backwards;
+}
+
+@keyframes spin-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(180deg);
+    }
+}
