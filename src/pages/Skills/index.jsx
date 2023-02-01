@@ -14,7 +14,7 @@ const Skill = () => {
             <div className="py-4 text-justify md:flex">
                 <div className="md:w-1/2">
                     <p className="pt-1 leading-7">
-                        I am confident that I am strong strong in front-end
+                        I am confident that I am strong strong in frontend
                         development including technologies like
                         <span className="text-green-500">
                             {' '}

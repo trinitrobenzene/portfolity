@@ -33,7 +33,7 @@ const Contact = () => {
             <div className="md:grid grid-cols-2 gap-8">
                 <div className="py-4 pr-6 col-span-1">
                     <p className="text-justify">
-                        I am interested in front-end work opportunities. So, if
+                        I am interested in frontend work opportunities. So, if
                         you have other requests or questions, you can contact me
                         by using the form below or via following ways:
                     </p>
