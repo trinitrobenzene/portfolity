@@ -29,10 +29,14 @@ const Home = () => {
             </div>
             <div className="lg:w-1/4 md:w-1/2">
                 <img
-                    className="eevee"
-                    alt=""
-                    src="https://i.pinimg.com/750x/29/c4/98/29c4986cd97659d12849e45e9e0c316a.jpg"
-                />
+                        alt=""
+                        src={Portrait}
+                        className="rounded-full mx-auto border border-gray-200 w-4/5"
+                    />
+                    <div className="text-center">
+                        <h4 className="font-bold">Buu Tran Nhu</h4>
+                        <p className="text-gray-400">Front-end developer</p>
+                    </div>
             </div>
         </div>
     );
