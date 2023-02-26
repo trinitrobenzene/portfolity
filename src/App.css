@@ -1,12 +1,16 @@
 @tailwind components;
 
 @layer components {
+    body {
+        @apply min-h-screen;
+    }
+
     .main {
-        @apply mx-auto w-full md:w-11/12 lg:w-5/6 flex flex-col min-h-screen bg-slate-50;
+        @apply mx-auto md:w-11/12 lg:w-5/6 flex flex-col;
     }
 
     .to-contact {
-        @apply w-full md:w-max text-center rounded-md shadow;
+        @apply w-full md:w-max text-center rounded-md shadow bg-transparent;
     }
 
     .form-input {
@@ -23,7 +27,7 @@
     }
 
     .navbar {
-        @apply shadow px-8 py-2 flex justify-between;
+        @apply shadow px-8 py-2;
     }
 
     .cube-container {

@@ -7,49 +7,51 @@ import './style.scss';
 const Navbar = () => {
     return (
         <div className="navbar">
-            <Link to="/" className="flex items-center">
-                <span className="spin spinner">
-                    <IoCodeSlash
-                        size={36}
-                        className="inline bg-green-500 text-white rounded-full p-1"
-                    />
-                </span>
-                <h4 className="font-bolder inline-block">Buu's Portfolio</h4>
-            </Link>
-            <nav className="flex justify-around w-1/3">
-                <NavLink
-                    exact="true"
-                    activeclassname="active"
-                    to="/"
-                    className="nav-icon"
-                >
-                    <HiHome size={28} />
-                </NavLink>
-                <NavLink
-                    exact="true"
-                    activeclassname="active"
-                    to="/about"
-                    className="nav-icon"
-                >
-                    <HiUser size={28} />
-                </NavLink>
-                <NavLink
-                    exact="true"
-                    activeclassname="active"
-                    to="/skills"
-                    className="nav-icon"
-                >
-                    <HiMenuAlt1 size={28} />
-                </NavLink>
-                <NavLink
-                    exact="true"
-                    activeclassname="active"
-                    to="/contact"
-                    className="nav-icon"
-                >
-                    <HiMailOpen size={28} />
-                </NavLink>
-            </nav>
+            <div className='md:w-11/12 lg:w-5/6 flex justify-between mx-auto'>
+                <Link to="/" className="flex items-center">
+                    <span className="spin spinner">
+                        <IoCodeSlash
+                            size={36}
+                            className="inline bg-green-500 text-white rounded-full p-1"
+                        />
+                    </span>
+                    <h4 className="font-bolder inline-block">Buu's Portfolio</h4>
+                </Link>
+                <nav className="flex justify-around w-1/3">
+                    <NavLink
+                        exact="true"
+                        activeclassname="active"
+                        to="/"
+                        className="nav-icon"
+                    >
+                        <HiHome size={28} />
+                    </NavLink>
+                    <NavLink
+                        exact="true"
+                        activeclassname="active"
+                        to="/about"
+                        className="nav-icon"
+                    >
+                        <HiUser size={28} />
+                    </NavLink>
+                    <NavLink
+                        exact="true"
+                        activeclassname="active"
+                        to="/skills"
+                        className="nav-icon"
+                    >
+                        <HiMenuAlt1 size={28} />
+                    </NavLink>
+                    <NavLink
+                        exact="true"
+                        activeclassname="active"
+                        to="/contact"
+                        className="nav-icon"
+                    >
+                        <HiMailOpen size={28} />
+                    </NavLink>
+                </nav>
+            </div>
         </div>
     );
 };

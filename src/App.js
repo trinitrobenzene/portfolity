@@ -8,16 +8,18 @@ import Skill from './pages/Skills';
 
 function App() {
     return (
-        <div className="main">
+        <div>
 			<Navbar / >
-            <Routes>
-                <Route path="">
-                    <Route index element={<Home />} />
-                    <Route path='/about' element={<About />} />
-                    <Route path='/skills' element={<Skill />} />
-                    <Route path='/contact' element={<Contact/>} />
-                </Route>
-            </Routes>
+            <div className='main'>
+                <Routes>
+                    <Route path="">
+                        <Route index element={<Home />} />
+                        <Route path='/about' element={<About />} />
+                        <Route path='/skills' element={<Skill />} />
+                        <Route path='/contact' element={<Contact/>} />
+                    </Route>
+                </Routes>
+            </div>
         </div>
     );
 }

@@ -27,7 +27,7 @@ const Contact = () => {
     };
     return (
         <div className="p-8">
-            <h1 className='font-black'>
+            <h1 className="font-black">
                 <AnimatedLetter str={content} idx={5} letter={'text-animate'} />
             </h1>
             <div className="md:grid grid-cols-2 gap-8">
@@ -38,23 +38,13 @@ const Contact = () => {
                         by using the form below or via following ways:
                     </p>
                     <ul className="contact-via list-disc">
-                        <li>
+                        <li className="my-1">
                             Email:{' '}
                             <a href="mailto:trannhubuu1412@gmail.com">
                                 trannhubuu1412@gmail.com
                             </a>
                         </li>
-                        <li>
-                            Facebook:{' '}
-                            <a
-                                href="https://www.facebook.com/Articuno.012/"
-                                target={'_blank'}
-                                rel="noreferrer"
-                            >
-                                Trần Như Bửu
-                            </a>
-                        </li>
-                        <li>
+                        <li className="my-1">
                             Github:{' '}
                             <a
                                 href="https://github.com/trinitrobenzene"
@@ -64,13 +54,27 @@ const Contact = () => {
                                 trinitrobenzene
                             </a>
                         </li>
+                        <li className="my-1">
+                            Facebook:{' '}
+                            <a
+                                href="https://www.facebook.com/Articuno.012/"
+                                target={'_blank'}
+                                rel="noreferrer"
+                            >
+                                Trần Như Bửu
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div className="py-4 col-span-1">
                     <form ref={contactForm} onSubmit={handleSendEmail}>
                         <div className="form-input">
                             <label htmlFor="name">Name</label>
-                            <input name="name" placeholder="Your name" required/>
+                            <input
+                                name="name"
+                                placeholder="Your name"
+                                required
+                            />
                         </div>
                         <div className="form-input">
                             <label htmlFor="email">Email</label>
@@ -87,7 +91,11 @@ const Contact = () => {
                         </div>
                         <div className="form-input">
                             <label htmlFor="mess">Message</label>
-                            <textarea name="mess" placeholder="Message" required/>
+                            <textarea
+                                name="mess"
+                                placeholder="Message"
+                                required
+                            />
                         </div>
                         <div className="form-input">
                             <input

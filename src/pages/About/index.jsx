@@ -10,7 +10,7 @@ const About = () => {
             </h1>
             <div className='md:grid grid-cols-4 gap-8 py-4'>
                 <div className="col-span-3 text-justify md:pr-20">
-                    <div className="animate__animated animate__fadeIn animate__delay-2s">
+                    <div className="animate__animated animate__fadeIn animate__delay-1s">
                         <p className="pb-1 leading-7">
                             I am a student in the Computer Science and Engineering
                             department of the Ho Chi Minh City University of
