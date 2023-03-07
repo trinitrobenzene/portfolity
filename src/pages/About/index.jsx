@@ -48,6 +48,16 @@ const About = () => {
                                         Pokemon Database Clone
                                     </a>
                                 </li>
+                                <li>
+                                    <a
+                                        href="https://cinema-red.vercel.app/"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="hover:underline text-blue-400"
+                                    >
+                                        Booking Movie Tickets Online
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
