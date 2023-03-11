@@ -21,7 +21,7 @@ const Navbar = () => {
                     <NavLink
                         exact="true"
                         activeclassname="active"
-                        to="/"
+                        to='/'
                         className="nav-icon"
                     >
                         <HiHome size={28} />
