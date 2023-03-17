@@ -51,7 +51,7 @@ const Skill = () => {
                             >
                                 Certification Checker
                             </a>
-                            here, with code <b>4B19P79</b> or here, {' '}
+                            {' '} here, with code <b>4B19P79</b> or here, {' '}
                             <a
                                 href="https://interstate21.com/certificate/?code=4B19P79"
                                 target="_blank"
