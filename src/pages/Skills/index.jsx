@@ -30,16 +30,16 @@ const Skill = () => {
                         </p>
                         <p>
                             Other programming languages that I am able to use:
-                            Python, C/C++, PHP. I also know how to work with databases
-                            like MySQL, SQL Server.
+                            Python, C/C++, PHP. I also know how to work with
+                            databases like MySQL, SQL Server.
                         </p>
                     </div>
                     <div className="pt-2">
                         <p>
                             On the other hand, I have more than 4 months of
-                            internship experience in ReactJS at FPT Software and
-                            have obtained the ReactJS Level 1 certificate issued
-                            by Interstate 21.
+                            training experience in ReactJS at FPT Software
+                            Academy and have obtained the ReactJS Level 1
+                            certificate issued by Interstate 21.
                         </p>
                         <p>
                             You can check here:{' '}
@@ -49,16 +49,16 @@ const Skill = () => {
                                 rel="noreferrer"
                                 className="hover:underline text-blue-400"
                             >
-                                https://certification.interstate21.com/
+                                here
                             </a>
-                            , with code <b>4B19P79</b> or here: {' '}
+                            , with code <b>4B19P79</b> or {' '}
                             <a
-                                href="https://tinyurl.com/reactctf"
+                                href="https://interstate21.com/certificate/?code=4B19P79"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="hover:underline text-blue-400"
                             >
-                                https://tinyurl.com/reactctf
+                                here
                             </a>
                             .
                         </p>
