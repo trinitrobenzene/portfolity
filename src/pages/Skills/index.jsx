@@ -42,23 +42,23 @@ const Skill = () => {
                             certificate issued by Interstate 21.
                         </p>
                         <p>
-                            You can check here:{' '}
+                            You can check {' '}
                             <a
                                 href="https://certification.interstate21.com/"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="hover:underline text-blue-400"
                             >
-                                here
+                                Certification Checker
                             </a>
-                            , with code <b>4B19P79</b> or {' '}
+                            here, with code <b>4B19P79</b> or here, {' '}
                             <a
                                 href="https://interstate21.com/certificate/?code=4B19P79"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="hover:underline text-blue-400"
                             >
-                                here
+                                PDF file
                             </a>
                             .
                         </p>
